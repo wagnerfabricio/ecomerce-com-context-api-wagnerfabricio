@@ -1,5 +1,5 @@
 /* --------------------------------- SYSTEM --------------------------------- */
-import { useDispatch } from "react-redux";
+// import { useDispatch } from "react-redux";
 import { useHistory, Link } from "react-router-dom";
 
 /* --------------------------------- PROJECT -------------------------------- */
@@ -17,7 +17,7 @@ import { Logo, Container, Content } from "./styles";
 import { Button, TextField } from "@mui/material";
 
 const Login = () => {
-  const dispatch = useDispatch();
+  // const dispatch = useDispatch();
   const history = useHistory();
 
   const { signIn } = useUser();
